@@ -15,7 +15,7 @@ author :
   email : aleksey.bykhun@phystech.edu
   github : caffeinum
   twitter : caffeinum
-  feedburner : feedname
+  # feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -38,7 +38,7 @@ JB :
   # Links in your website should always be prefixed with {{BASE_PATH}}
   # however this value will be dynamically changed depending on your deployment situation.
   #
-  # CNAME (https://bykhun.com)
+  # CNAME (https://blog.bykhun.com)
   #   DO NOT SET BASE_PATH
   #   (urls will be prefixed with "/" and work relatively)
   #
@@ -133,5 +133,3 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-
-theme: jekyll-theme-merlot
