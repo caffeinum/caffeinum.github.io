@@ -1,0 +1,62 @@
+{% comment %}<!--
+The feed_list include is a listing helper.
+Usage:
+  1) assign the 'feed_list' variable to a valid array of pages or posts.
+  2) include JB/feed_list
+  example:
+    <ul>
+  	  {% assign feed_list = site.pages %}
+  	  {% include JB/feed_list %}
+  	</ul>
+
+  Grouping: (optional):
+  	assign the 'group' variable to constrain the list to only pages/posts
+  	in the given group. Note you must define the group manually in the page/post
+  	meta-data to use this feature.
+  	Grouping is mainly helpful for non-post pages.
+  	If you want to group posts, it's easier/better to tag them, then pass the tagged posts array.
+  	i.e. site.tags.cool_tag (this returns an array of posts tagged: cool_tag)
+
+  This helper can be seen in use at: ../_layouts/default.html
+-->{% endcomment %}
+
+{% if site.JB.feed_list.provider == "custom" %}
+  {% include custom/feed_list %}
+{% else %}
+  {% for node in feed_list %}
+    {% if node.title != null %}
+      {% if group == null or group == node.group %}
+
+  			<header>
+  				<div class="unit-head">
+  					<div class="unit-inner unit-head-inner">
+  						<h1 class="h2 entry-title">
+                <a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a>
+              </h1>
+  					</div><!-- unit-inner -->
+  				</div><!-- unit-head -->
+  			</header>
+
+        <div class="bd">
+          <div class="entry-content">
+            {{node.content}}
+
+  					<div class="meta">
+  						<p class="date-publish">
+  							Published:
+  							<date class="date-pub" title="{{ node.date | date_to_xmlschema }}" datetime="{{ node.date | date_to_xmlschema }}" pubdate>
+    							<span class="month"><abbr>{{ node.date | date: '%B' }}</abbr></span>
+    							<span class="day">{{ node.date | date: '%d' }}</span>
+    							<span class="year">{{ node.date | date: '%Y' }}</span>
+  							</date>
+  						</p>
+            </div>
+            
+          </div>
+        </div>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% assign feed_list = nil %}
+{% assign group = nil %}
