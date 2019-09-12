@@ -28,7 +28,7 @@ tags: [intro, about, rus]
 
 
 
-С 2018 работал в Swap.online: был вначале research, потом CTO. Работал с Lightning Network, Bitcoin смарт-контрактами, Ethereum, React.
+С 2018 работал в [Swap.online](https://swap.online): был вначале research, потом CTO. Работал с Lightning Network, Bitcoin смарт-контрактами, Ethereum, React.
 
 
 
@@ -48,9 +48,9 @@ tags: [intro, about, rus]
 
 
 
-В феврале вместе с Даней Охлопковым (https://okhlopkov.com) запустили свой стартап. Я тут СТО, весь код сайта и расширения – мой (кроме лендингов).
+В феврале вместе с Даней Охлопковым ([https://okhlopkov.com](https://okhlopkov.com)) запустили свой стартап. Я тут СТО, весь код сайта и расширения – мой (кроме лендингов).
 
-https://github.com/instagrambot/GramUp
+[https://github.com/instagrambot/GramUp](https://github.com/instagrambot/GramUp)
 
 
 
@@ -80,7 +80,7 @@ https://github.com/instagrambot/GramUp
 
 
 
-Morejust.media
+[Morejust.media](https://morejust.media)
 
 
 
@@ -88,7 +88,7 @@ Morejust.media
 
 
 
-Flightwallet.org
+[Flightwallet.org](https://flightwallet.org)
 
 
 
@@ -96,13 +96,13 @@ Flightwallet.org
 
 
 
-ImmutableETH
+[ImmutableETH](https://npmjs.com/package/immutable)
 
 Опубликовал расширение для NPM, которое позволяет хранить данные в блокчейне как в localStorage.
 
 
 
-Morejust.foundation
+[Morejust.foundation](https://morejust.foundation)
 
 
 
@@ -120,19 +120,19 @@ Morejust.foundation
 
 - выступал на настоящей конференции МФТИ (56-й) с докладом про видеоплеер Лектория.
 
-- провел лекцию по атомарным свопам на 30000 просмотров https://vk.com/video-932_456239245.
+- провел лекцию по атомарным свопам на 30000 просмотров [https://vk.com/video-932_456239245](https://vk.com/video-932_456239245).
 
 
 
 ## Резюме:
 
-https://bykhun.com/cv.pdf
+[https://bykhun.com/cv.pdf](https://bykhun.com/cv.pdf)
 
 
 
 ## Сайт:
 
-https://bykhun.com
+[https://bykhun.com](https://bykhun.com)
 
 
 
