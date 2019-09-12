@@ -7,9 +7,10 @@ group: navigation
 {% include JB/setup %}
 
 ## My Posts:
+
 <ul>
-{% assign pages_list = site.posts %}
-{% include JB/pages_list %}
+{% assign posts_list = site.posts %}
+{% include JB/posts_list %}
 </ul>
 
 
